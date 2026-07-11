@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WORKOUT GUIDE // BRUTALIST NOIR</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@800&display=swap');
+
+  :root {
+    --bg-color: #050505;
+    --paper-color: #eae8e1;
+    --text-black: #000000;
+    --subtle-gray: #555555;
+    --border-thick: 2px solid #000000;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    /* Desaturated raw photocopier noise / grain background */
+    background-image: 
+      radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0),
+      url('https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?q=80&w=2000&auto=format&fit=crop'); 
+    background-size: 3px 3px, cover;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+    color: var(--paper-color);
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    padding: 40px 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .paper-canvas {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--paper-color);
+    color: var(--text-black);
+    padding: 60px 50px;
+    border: 4px solid #000000;
+    box-shadow: 15px 15px 0px #111111;
+    position: relative;
+  }
+
+  /* Clean Brutalist Header Bar */
+  .erd-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: var(--border-thick);
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin: 0 0 30px 0;
+    word-break: break-word;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: #000000;
+    color: var(--paper-color);
+    padding: 12px 16px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    border: var(--border-thick);
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-bottom: var(--border-thick);
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+  p, li {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+  }
+
+  .intro-container {
+    border: var(--border-thick);
+    padding: 30px;
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  /* Brutalist Grid Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 40px 0;
+    font-size: 0.8rem;
+  }
+
+  th, td {
+    border: var(--border-thick);
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #000000;
+    color: var(--paper-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+  }
+
+  tr:nth-child(even) td {
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+
+  .footer-stamp {
+    margin-top: 80px;
+    padding-top: 20px;
+    border-top: var(--border-thick);
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="paper-canvas">
+
+  <div class="erd-header">
+    <span>4233</span>
+  </div>
+
+  <h1>WORKOUT GUIDE & ROUTINES</h1>
+
+  <div class="intro-container">
+    <p><strong>// INTRODUCTION</strong></p>
+    <p>Welcome to this workout guide. This document details two distinct training programs that represent my complete journey and evolution over five years of consistent lifting, moving from building a heavy, foundational strength baseline as a beginner to fine-tuning a body-sculpting split adapted to my individual genetics and aesthetic goals.</p>
+    <p>My foundation began with Program 1 (AlphaDestiny Full Body), which I ran for my first three years in the gym. This program was pivotal in my physical transformation: it allowed me to bulk up to 71 kg while developing serious raw strength, helping me hit major personal milestones including a 225lb Bench Press, 315lb Squat, and 405lb Deadlift. After building a rock-solid strength and muscular foundation, I transitioned into a cut and shifted toward a more aesthetics-focused approach.</p>
+    <p>Program 2 (Current Hybrid Routine) is the result of that evolution. Inspired by Jeff Nippard, it balances heavy pressing and pulling with targeted volume. Keep in mind that Program 2 is strictly customized to my personal genetics, specifically accommodating the fact that my legs grow significantly faster than my upper body. I highly recommend using Program 2 as a framework and adjusting exercise selection, volume, and muscle group frequency to fit your own unique body mechanics and lagging body parts.</p>
+  </div>
+
+  <h2>SECTION I — MANUAL OVERVIEW</h2>
+  <p><strong>PROGRAM 1: THE FOUNDATION</strong><br>
+  ALPHADESTINY FULL BODY (3X / WEEK)<br>
+  A 3-day-a-week full-body routine built to maximize raw strength, explosive power, and heavy compound progression.</p>
+  
+  <p><strong>PROGRAM 2: THE CURRENT SPLIT 5-DAY PUSH/LEGS/PULL</strong><br>
+  A hybrid routine heavily inspired by Jeff Nippard's science-based programming, balancing strength and hypertrophy with a specific upper-body focus.</p>
+
+  <h2>SECTION II — PROGRAM 1: ALPHADESTINY FULL BODY (3X / WEEK)</h2>
+  <p><strong>PROGRAM OVERVIEW & HISTORY</strong><br>
+  This is the exact full-body program originally designed by AlphaDestiny (Alex Leonidas) that I followed for my first 3 years of lifting. Built around heavy compound lifts, full-body frequency, and strong yoke emphasis (upper back, traps, neck, rear delts), this program provides the ultimate foundation to build raw strength, thick muscular density, and total-body power.</p>
+
+  <h3>KEY TRAINING GUIDELINES</h3>
+  <ul>
+    <li><strong>Weekly Schedule:</strong> Alternate Workout A and Workout B on non-consecutive days (e.g., Mon / Wed / Fri).
+      <ul>
+        <li>Week 1: Workout A / Workout B / Workout A</li>
+        <li>Week 2: Workout B / Workout A / Workout B</li>
+      </ul>
+    </li>
+    <li><strong>Progression Engine:</strong> Focus strictly on progressive overload. Once you complete the top of the recommended rep range on all working sets with clean form, increase weight by 2.5-5 lbs in the next session.</li>
+    <li><strong>Warm-Up & Prep:</strong> Perform 2-3 ramp-up warm-up sets before main heavy compound lifts. Do not take warm-up sets to failure.</li>
+    <li><strong>Rest Periods:</strong> Rest 3-5 mins on major compounds (Squat, Deadlift, Bench, OHP). Rest 1.5-2 mins on accessories and yoke work.</li>
+  </ul>
+
+  <h3>WORKOUT A (FULL BODY - HEAVY SQUAT & HORIZONTAL FOCUS)</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Box Squat / Barbell Back Squat</td><td>3-5</td><td>4-6</td><td>Main leg power driver; focus on depth & power</td></tr>
+      <tr><td>Pause Bench Press</td><td>3-5</td><td>4-6</td><td>Primary pressing movement; rotate or focus bench</td></tr>
+      <tr><td>Barbell Bent-Over Row / Pendlay Row</td><td>3-5</td><td>4-6</td><td>Heavy horizontal pull for upper back density</td></tr>
+      <tr><td>Overhead Barbell Extension</td><td>3</td><td>6-10</td><td>Tricep long-head mass & lockout power</td></tr>
+      <tr><td>Barbell / Dumbbell Preacher Curl</td><td>3</td><td>6-10</td><td>Focus on lengthening the bicep</td></tr>
+      <tr><td>Stiff-Legged Deadlift / Good Morning</td><td>2-3</td><td>6-10</td><td>Focus on a deep stretch for hamstring hypertrophy</td></tr>
+    </tbody>
+  </table>
+
+  <h3>WORKOUT B (FULL BODY - HEAVY DEADLIFT & VERTICAL FOCUS)</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Box Squat / Barbell Back Squat</td><td>3-5</td><td>4-6</td><td>Main leg power driver; focus on depth & power</td></tr>
+      <tr><td>Standing Overhead Press (OHP)</td><td>3-5</td><td>4-6</td><td>Strict vertical pressing strength, pause at bottom</td></tr>
+      <tr><td>Trap Bar Deadlift</td><td>2</td><td>6-10</td><td>Main posterior chain overload movement</td></tr>
+      <tr><td>(Weighted) Chin Up</td><td>3</td><td>3-5</td><td>Main vertical pulling movement; substitute Lat Pulldowns if needed</td></tr>
+      <tr><td>Close Grip Bench Press</td><td>3</td><td>6-8</td><td>For tricep mass & elbow flexion power</td></tr>
+      <tr><td>Weighted Planks</td><td>3</td><td>30-60s</td><td>Move onto weighted planks or cable crunches as core strength improves</td></tr>
+    </tbody>
+  </table>
+
+  <h2>SECTION III — PROGRAM 2: CURRENT HYBRID ROUTINE (5X / WEEK)</h2>
+  <p><strong>PROGRAM OVERVIEW & RATIONALE</strong><br>
+  Heavily inspired by Jeff Nippard's science-based programming, this 5-day training split balances heavy strength development with targeted muscular hypertrophy while prioritizing strict progressive overload.</p>
+  <p><strong>WHY 1X LEGS?</strong> After 5 years of lifting, I discovered that my lower body responds and grows significantly faster than my upper body. Structuring the week around 1 dedicated leg session allows me to hit upper-body muscle groups with higher frequency while keeping my lower body training focused and proportional.</p>
+
+  <h3>KEY TRAINING GUIDELINES</h3>
+  <ul>
+    <li><strong>Weekly Schedule:</strong> Day 1 (Push Strength), Day 2 (Legs), Day 3 (Pull Hyper), Day 4 (REST), Day 5 (Push Hyper), Day 6 (Pull Strength), Day 7 (REST)</li>
+    <li><strong>Progression Engine:</strong> Focus strictly on progressive overload. Aim to increase weight or reps performed within each specified rep range session to session.</li>
+    <li><strong>Warm-up Protocol:</strong> Perform 1-3 ramp-up warm-up sets before primary compound lifts. Do not take warm-up sets to failure.</li>
+    <li><strong>Rest Periods:</strong> Rest 2-3 mins on major compound movements (Bench Press, Incline Press, Rack Pulls) and 1-1.5 mins on isolation and accessory exercises.</li>
+  </ul>
+
+  <h3>DAY 1: PUSH STRENGTH</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Barbell Bench Press</td><td>3 Warmup + 1 Top Set</td><td>6-8</td><td>Heavy compound pressing strength</td></tr>
+      <tr><td>Larson Press</td><td>2</td><td>10</td><td>Feet-up bench for pure chest isolation</td></tr>
+      <tr><td>Smith Machine Seated Shoulder Press</td><td>2 Warmup + 3 Working</td><td>6-8</td><td>Heavy vertical pressing power</td></tr>
+      <tr><td>Chest Expander (Heavy Chest Flyes)</td><td>3</td><td>10</td><td>Deep stretch and chest hypertrophy</td></tr>
+      <tr><td>Standing Machine Lateral Raise</td><td>3</td><td>10-12</td><td>Side delt isolation & width</td></tr>
+      <tr><td>Superset: Tricep Extension (Cable) / Cable Tricep Press</td><td>3</td><td>12</td><td>Tricep lockout work & burnout</td></tr>
+    </tbody>
+  </table>
+
+  <h3>DAY 2: LEGS</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Seated Leg Curl</td><td>2</td><td>15</td><td>Hamstring isolation & knee flexion</td></tr>
+      <tr><td>Seated Leg Extension</td><td>2</td><td>15</td><td>Quad isolation & knee extension</td></tr>
+      <tr><td>Horizontal Leg Press</td><td>2 Warmup + 3 Working</td><td>8-6</td><td>Main compound leg overload</td></tr>
+      <tr><td>Good Morning</td><td>3</td><td>8-10</td><td>Posterior chain & hinge strength</td></tr>
+      <tr><td>Hip Abduction</td><td>2</td><td>15</td><td>Outer hip & glute medius</td></tr>
+      <tr><td>Hip Adduction</td><td>2</td><td>15</td><td>Inner thigh & adductor focus</td></tr>
+      <tr><td>Calf Extension</td><td>3</td><td>12-15</td><td>Lower leg strength & hypertrophy</td></tr>
+    </tbody>
+  </table>
+
+  <h3>DAY 3: PULL HYPERTROPHY</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Straight Arm Pull Down</td><td>2</td><td>20, 15</td><td>Lat engagement & pre-exhaustion</td></tr>
+      <tr><td>Bent Over Row</td><td>3</td><td>14 (7/7)</td><td>7 full reps + 7 half ROM reps</td></tr>
+      <tr><td>Single Arm Cable Row</td><td>3</td><td>12</td><td>Unilateral back density & stretch</td></tr>
+      <tr><td>Lat Pull Down</td><td>3</td><td>12-15</td><td>Upper back & lat width focus</td></tr>
+      <tr><td>Superset: Upright Cable Row / Face Pull</td><td>3</td><td>15</td><td>Side delts, rear delts, posture & traps</td></tr>
+      <tr><td>Hyperextension</td><td>3</td><td>10, 15, 20</td><td>Lower back & spinal erectors</td></tr>
+      <tr><td>Bayesian Curl</td><td>3</td><td>12</td><td>Bicep stretch-mediated hypertrophy</td></tr>
+      <tr><td>Behind the Back Wrist Curl</td><td>3</td><td>15</td><td>Forearm flexion & grip strength</td></tr>
+    </tbody>
+  </table>
+
+  <h3>DAY 5: PUSH HYPERTROPHY</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>Smith Machine Incline Bench Press</td><td>2 Warmup + 3 Working</td><td>8/5/15</td><td>Pyramid reps: Set 1 (8), Set 2 (5), Set 3 (15)</td></tr>
+      <tr><td>Machine Shoulder Press</td><td>1 Warmup + 3 Working</td><td>8-10</td><td>Controlled vertical press hypertrophy</td></tr>
+      <tr><td>Pec Deck Fly</td><td>3</td><td>15</td><td>Chest isolation & peak contraction</td></tr>
+      <tr><td>Standing Machine Lateral Raise</td><td>3</td><td>12-15</td><td>High-rep side delt hypertrophy</td></tr>
+      <tr><td>Tricep Extension (Cable)</td><td>4</td><td>15</td><td>High volume tricep work</td></tr>
+      <tr><td>Cable Crunch</td><td>3</td><td>12</td><td>Weighted abdominal flexion</td></tr>
+      <tr><td>Torso Rotation</td><td>2</td><td>15</td><td>Core stability & obliques (each side)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>DAY 6: PULL STRENGTH</h3>
+  <table>
+    <thead><tr><th>EXERCISE</th><th>SETS</th><th>REPS</th><th>NOTES/FOCUS</th></tr></thead>
+    <tbody>
+      <tr><td>One Arm Lat Pull-in</td><td>2</td><td>15</td><td>Lat warm-up & isolation focus</td></tr>
+      <tr><td>Rack Pull</td><td>2 Warmup + 3 Working</td><td>6-8</td><td>Heavy posterior chain & upper back overload</td></tr>
+      <tr><td>Weighted Pull Up</td><td>1 BW Set + 3 Working</td><td>6</td><td>Heavy vertical pulling strength</td></tr>
+      <tr><td>Chest Supported T-Bar Row</td><td>3</td><td>10</td><td>Mid-back thickness without lower back fatigue</td></tr>
+      <tr><td>Seated Cable Row</td><td>3</td><td>15</td><td>High-rep back density</td></tr>
+      <tr><td>Reverse Flyes</td><td>2</td><td>15</td><td>Rear delt isolation</td></tr>
+      <tr><td>Barbell Curl</td><td>3</td><td>8, 8, 6</td><td>Heavy bicep strength progression</td></tr>
+      <tr><td>Reverse Curl</td><td>3</td><td>15</td><td>Brachialis & forearm hypertrophy</td></tr>
+    </tbody>
+  </table>
+
+  <div class="footer-stamp">
+    <span>4233</span>
+  </div>
+
+</div>
+
+</body>
+</html>
