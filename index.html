@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -108,10 +108,16 @@
     display: inline-block;
   }
 
+  /* Justified Paragraph Style */
   p, li {
     font-size: 0.85rem;
     line-height: 1.6;
     letter-spacing: -0.02em;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
 
   .intro-container {
